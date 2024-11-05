@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "alt-jumpers",
+  "version": "1.0",
+  "description": "Convenient Alt shortcuts",
+  "permissions": [],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "github": {
+      "suggested_key": {
+        "default": "Alt+G"
+      },
+      "description": "Shortcut for GitHub"
+    },
+    "chatgpt": {
+      "suggested_key": {
+        "default": "Alt+C"
+      },
+      "description": "Shortcut for ChatGPT"
+    }
+  }
+}
