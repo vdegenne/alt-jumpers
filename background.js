@@ -3,5 +3,9 @@ chrome.commands.onCommand.addListener((command) => {
     chrome.tabs.create({ url: "https://github.com/vdegenne?tab=repositories" });
   } else if (command === "chatgpt") {
     chrome.tabs.create({ url: "https://chat.openai.com" });
+  } else if (command === "extensions") {
+    chrome.tabs.create({ url: "chrome://extensions/" });
+  } else if (command === "youtube") {
+    chrome.tabs.create({ url: "https://www.youtube.com/" });
   }
 });
