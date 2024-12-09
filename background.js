@@ -1,6 +1,6 @@
 chrome.commands.onCommand.addListener((command) => {
   if (command === "github") {
-    chrome.tabs.create({ url: "https://github.com/vdegenne?tab=repositories" });
+    chrome.tabs.create({ url: "https://github.com/notifications" });
   } else if (command === "chatgpt") {
     chrome.tabs.create({ url: "https://chat.openai.com" });
   } else if (command === "extensions") {
